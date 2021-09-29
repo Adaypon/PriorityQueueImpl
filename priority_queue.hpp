@@ -1,4 +1,5 @@
 #pragma once
+#include <algorithm>
 
 template<typename T, typename Container>
 class priority_queue {
