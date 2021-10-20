@@ -1,7 +1,8 @@
 #pragma once
 #include <algorithm>
+#include <vector>
 
-template<typename T, typename Container>
+template<typename T, typename Container = std::vector<T>>
 class priority_queue {
 	Container _container;
 	
